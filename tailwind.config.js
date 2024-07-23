@@ -5,7 +5,16 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        title: 'Oswald',
+        body: 'Merriweather',
+        sans: 'Open Sans',
+      },
+      colors: {
+        brown: '#c7a17a',
+      },
+    },
   },
   plugins: [],
 }
